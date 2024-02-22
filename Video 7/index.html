@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <form action="prajwal.php" method="post">
+        <h1>This Form For Coding Student For Intern</h1>
+
+        <div>
+            <!-- This Is Input Tag for Text -->
+            <label for="username">Enter Your Username</label>
+            <input type="text" id="username" name="Userid" placeholder="Enter Your Username" >
+        </div>
+        <div>
+            <h4>Select Your Gender</h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            
+        </div>
+
+        <div><br>
+            <select name="country" id="coun">
+                <option value="india">India</option>
+                <option value="india">Usa</option>
+                <option value="india">China</option>
+                <option value="india">England</option>
+                <option value="india">Scotland</option>
+            </select>
+        </div>
+        <div><br>
+            <input type="checkbox" name="checkb" id="check">
+            <label for="check">Subscribe for updates</label>
+        </div>
+
+        <div><br>
+           <textarea name="passsage" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit ">
+        <input type="reset" value="Reset Form">
+    </form>
+
+</body>
+
+</html>
